@@ -58,6 +58,7 @@ public class MainManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //ABSTRACTION
         IncreaseScorePerSecond();
 
         GameObject player = GameObject.Find("Player");
@@ -105,6 +106,7 @@ public class MainManager : MonoBehaviour
 
     void SetHighScoreText()
     {
+        //ENCAPSULATION
         // Get the high score, or return default
 
         float storedScore = PlayerPrefs.GetFloat(STOREDHIGHSCORENAME, 0);

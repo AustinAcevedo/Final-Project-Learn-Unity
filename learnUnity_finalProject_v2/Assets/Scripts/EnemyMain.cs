@@ -21,6 +21,9 @@ public class EnemyMain : MonoBehaviour
     {
         objectRb = GetComponent<Rigidbody>();
         playerTracker = GameObject.Find("Player Tracker");
+
+
+
     }
 
     // Update is called once per frame

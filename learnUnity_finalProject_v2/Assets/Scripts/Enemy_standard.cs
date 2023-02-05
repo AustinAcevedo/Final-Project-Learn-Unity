@@ -5,6 +5,13 @@ using UnityEngine;
 public class Enemy_standard : EnemyMain
 {
 
+    //INHERITANCE
+
+    private void Start()
+    {
+        //POLYMORPHISM
+        awayStrength = 100;
+    }
     private void OnCollisionEnter(Collision collision)
     {
 

@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class Enemy_big : EnemyMain
 {
+    //INHERITANCE
 
+    private void Start()
+    {
+        //POLYMORPHISM
+        awayStrength = 3000;
+
+    }
     private void OnCollisionEnter(Collision collision)
     {
 
